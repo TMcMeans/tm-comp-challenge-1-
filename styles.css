@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+/* Universal Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Section Styles */
+
+.name {
+  width: 66.5%;
+  height: 50%;
+  background: #B4B9CF;
+}
+
+h1 {
+  color: white;
+  display: block;
+  margin: 40px  0  0 30px;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  display: block;
+  width: 80%;
+  margin-left: 30px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+button {
+  background: #B4B9CF;
+  border: 2px solid white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 10px;
+  width: 120px;
+  margin-right: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.fa-file, .fa-at {
+  font-size: 0.9rem;
+  margin-right: 3px;
+}
+
+.resume {
+  margin-left: 30px;
+}
+
+.profile {
+  width: 33.5%;
+  height: 50%;
+  background: #DACEAA;
+}
+
+.slideshow {
+  width: 40%;
+  height: 100%;
+  background-image: url('assets/profile-img-one.jpg'); 
+  background-size: cover;
+}
+
+section {
+  margin: 0;
+}
+
+.experience, .contact {
+  background: #4056a1;
+}
+
+.experience {
+  width: 33.333%;
+  height: 70%;
+}
+
+.education {
+  width: 33.333%;
+  height: 50%;
+  background: #f13c20;
+}
+
+.blog {
+  width: 33.333%;
+  height: 50%;
+  background: #B4B9CF;
+}
+
+.social, .portfolio {
+  background: #d79922;
+}
+
+.social {
+  width: 33.333%;
+  height: 100%;
+}
+
+.contact {
+  width: 33.333%;
+  height: 100%;
+}
+
+.portfolio {
+  width: 33.333%;
+  height: 100%;
+}
+
+i {
+  color: white;
+  border: 2px solid black;
+  
+}
+
+.fa-address-card, .fa-briefcase, .fa-graduation-cap, .fa-edit, .fa-comments, .fa-envelope, .fa-desktop {
+  display: block;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 68px;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 60%;
+  height: 75%;
+}
+
+.top-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 90%;
+ }
+
+.bottom-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 43.3%;
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 870px) {
+
+  .name {
+    width: 67%;
+    display: block;
+    height: 60%;
+  }
+
+  .profile {
+    width: 33%;
+    height: 60%;
+  }
+
+  .contact-btn {
+    margin: 15px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .slideshow {
+    width: 80%;
+   height: 80%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .top-wrapper {
+  width: 100%;
+  }
+
+  .bottom-wrapper {
+  height: 180px;
+  position: absolute;
+  bottom: 0;
+  }
+
+  .education {
+  height: 70%;
+  }
+
+  .blog {
+    height: 70%;
+  }
+
+  .name {
+  height: 58%;
+  }
+
+  .profile {
+    height: 58%;
+  }
+  
+  .social {
+    width: 37%;
+  }
+
+.contact {
+  width: 18.5%;
+}
+
+  .portfolio {
+    width: 44.5%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
