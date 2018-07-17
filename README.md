@@ -1,2 +1,13 @@
 # tm-comp-challenge-1-
 Static Comp Challenge 1
+
+This static comp challenge is one of a series of three challenges in Module 1 of Turing. I was asked to recreate a static comp, with some creative license but with respecting the integrity of the original design. 
+
+Here is the original design:
+
+![Static comp](/images/logo.png)
+
+
+This is my version: 
+
+![My version](/images/logo.png)
