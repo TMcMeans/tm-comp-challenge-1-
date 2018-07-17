@@ -5,9 +5,9 @@ This static comp challenge is one of a series of three challenges in Module 1 of
 
 Here is the original design:
 
-![Static comp](/images/logo.png)
+![Turing comp](assets/static-comp-challenge-1-turing.jpg)
 
 
 This is my version: 
 
-![My version](/images/logo.png)
+![My version](assets/mcmeans-static-comp.png)
